@@ -1,0 +1,56 @@
+[27-Feb-2023 12:49:56 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/fastrasu/public_html/contact/contact-page.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/fastrasu/public_html/contact/contact-page.php on line 30
+[27-Feb-2023 13:02:48 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/fastrasu/public_html/contact/contact-page.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/fastrasu/public_html/contact/contact-page.php on line 30
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Warning:  Undefined array key "name" in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Warning:  Undefined array key "email" in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Warning:  Undefined array key "subject" in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Warning:  Undefined array key "message" in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:06:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/fastrasu/public_html/contact/contact-page.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/fastrasu/public_html/contact/contact-page.php on line 30
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Warning:  Undefined array key "name" in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Warning:  Undefined array key "email" in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Warning:  Undefined array key "subject" in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Warning:  Undefined array key "message" in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:07:13 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/fastrasu/public_html/contact/contact-page.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/fastrasu/public_html/contact/contact-page.php on line 30
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Warning:  Undefined array key "name" in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Warning:  Undefined array key "email" in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Warning:  Undefined array key "subject" in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Warning:  Undefined array key "message" in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:08:33 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/fastrasu/public_html/contact/contact-page.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/fastrasu/public_html/contact/contact-page.php on line 30
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Warning:  Undefined array key "name" in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 16
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Warning:  Undefined array key "email" in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 17
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Warning:  Undefined array key "subject" in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 18
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Warning:  Undefined array key "message" in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/fastrasu/public_html/contact/contact-page.php on line 19
+[27-Feb-2023 13:08:36 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mail() in /home/fastrasu/public_html/contact/contact-page.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/fastrasu/public_html/contact/contact-page.php on line 30

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FastraSuite</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/logo.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+ 
+  <style>
+      /*--- Social media icon style begin ---*/
+.menu {
+  width: 35px;
+  height: 5px;
+  background: linear-gradient(60deg, #d476dd 20%,  #6610f2 80.1%);
+  margin: 6px 0;
+}
+
+.icons {
+    margin:2px;
+    position: fixed;
+    top:  30%;
+    right: 0%;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent !important;
+    z-index: 1;
+   
+}
+.icons a{
+    flex-direction: none;
+    text-decoration: uppercase;
+    padding:10px;
+    font-size:22px;
+    font-family:'oswald'san-serif;
+    text-align: left;
+    border-radius: 50px 0px 0px 50px; 
+    transform: translate(180px, 0px); 
+    transition: all 0.5s;
+ 
+    
+}.icons a:hover { 
+    transform: translate(0px, 0px); }.icons a:hover span{ transform: rotate(360deg); }
+.icons a span {
+    background-color: white;
+    margin-right:25px;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s;
+} .icons a{
+    text-transform:uppercase;
+}
+.facebook{
+    border: 3px solid #2c80d3;
+    background-color: #fff;
+    color: #2c80d3;
+}
+.youtube{
+     border: 3px solid #fa0910;
+    background-color: #fff;
+    color: #fa0910;
+}.twitter{
+     border: 3px solid #53c5ff;
+    background-color: #fff;
+    color: #53c5ff;
+}.linkedin{
+     border: 3px solid #007bb5;
+    background-color: #fff;
+    color: #007bb5;
+}
+
+/*--- Social media icon style end ---*/
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="../" class="logo d-flex align-items-center">
+        <img src="../assets/img/logo.png" alt="">
+        <span>FastraSuite</span>
+      </a>
+
+      
+<nav id="navbar" class="navbar">
+  <ul>
+    <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-down"></i></a>
+      <ul class="mega-menu mt-1">
+        <div class="row">
+          <div class="col-md-1">
+            <i class="fab fa-salesforce mega-menu-icon g-blue pt-2"></i>
+          </div>
+          <div class="col-md-5">
+            <h4><a href="../sales-and-marketing/" class="font-weight-bold">Sales and Marketing</a></h4>
+            <p class="mega-menu-p">Meet and exceed the expectations of your customers by predicting their needs
+              ahead of time</p>
+          </div>
+          <div class="col-md-1">
+            <i class="fas fa-people-arrows mega-menu-icon g-red pt-2"></i>
+          </div>
+          <div class="col-md-5">
+            <h4><a href="../human-resources/" class="font-weight-bold">Human Resources</a></h4>
+            <p class="mega-menu-p">Increase the overall productivity and profitability <br> of your business
+              organisation</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <i class="fa fa-file-invoice-dollar mega-menu-icon g-green pt-2"></i>
+          </div>
+          <div class="col-md-5">
+            <h4><a href="../financial-management" class="font-weight-bold">Financial Management</a></h4>
+            <p class="mega-menu-p">Automate your financial process, improve cash flow problems, cash management,
+              gain valuable insight and make efficient
+              management decisions</p>
+          </div>
+          <div class="col-md-1">
+            <i class="fa fa-exchange-alt mega-menu-icon g-yellow pt-2"></i>
+          </div>
+          <div class="col-md-5">
+            <h4><a href="../supply-chain-management" class="font-weight-bold">Supply Chain Management</a></h4>
+            <p class="mega-menu-p">Improve your overall organisation performance by cutting cost, managing
+              transactions in complex <br> supply chains</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <i class="fas fa-user-cog mega-menu-icon g-red pt-2"></i>
+          </div>
+          <div class="col-md-5">
+            <h4><a href="../customer-service-management" class="font-weight-bold">Customer Service Management</a>
+            </h4>
+            <p class="mega-menu-p">Improve business relationship with customers by assisting in customer retention
+              and driving sales growth.</p>
+          </div>
+          <div class="col-md-1">
+            <i class="fa fa-warehouse mega-menu-icon g-blue pt-2"></i>
+          </div>
+          <div class="col-md-5">
+            <h4><a href="../warehouse-management" class="font-weight-bold">Warehouse Management</a></h4>
+            <p class="mega-menu-p">Have full visibility into real-time <br> inventory levels and storage, staff
+              productivity, <br> demand forecasting within a warehouse.</p>
+          </div>
+        </div>
+      </ul>
+    </li>
+    <li><a class="nav-link scrollto" href="../patner/part.html">Partner</a></li>
+    <li><a class="nav-link scrollto" href="../about">Company</a></li>
+    <li><a class="nav-link" href="../contact">Contact</a></li>
+    <li><a class="getstarted scrollto request-demo" data-bs-toggle="modal" data-bs-target="#exampleModal">Request
+        Demo</a></li>
+  </ul>
+  <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Customer Service Management</h1>
+          <p class="mt-5 text-secondary" data-aos="fade-up" data-aos-delay="400">Easily collect, organize, and store customer data. Segment your customers and create relevant campaigns, make better marketing and sales decisions, and watch for trends in customer needs.</p>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#features"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="fade-left" data-aos-delay="700">
+          <img src="https://pngimage.net/wp-content/uploads/2018/06/lampada-ideias-png-3.png" class="img-fluid" alt=""
+            width="75%">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Request Demo</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="email address" required>
+              </div>
+              <div>
+                <label for="product">product</label>
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>--select--</option>
+                  <option value="1">Sales & Marketing</option>
+                  <option value="2">Human Resources</option>
+                  <option value="3">Financial Management</option>
+                  <option value="4">Supply Chain Managemnt</option>
+                  <option value="5">Customer Service Management</option>
+                  <option value="6">Warehouse Management</option>
+                </select>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  
+  /*--- Social media icon begins----*/
+<div class="icons">
+    <a href="https://www.facebook.com/profile.php?id=100088725992641" class="facebook" style="color:#2c80d3;"><span class="bi bi-facebook" style="color:#2c80d3;"></span>Facebook </a>
+    
+     <a href="https://www.youtube.com/@fastrasuite" class="youtube" style="color:#fa0910;;"> <span class="bi bi-youtube" style="color:#fa0910;"></span>Youtube</a>
+     
+      <a href="https://twitter.com/FastraSuite" class="twitter" style="color:#53c5ff;"><span class="bi bi-twitter" style="color:#53c5ff;"></span>Twitter</a>
+      
+      <a href="https://www.linkedin.com/company/fastra-suite/posts/?feedView=all" class="linkedin" style="color:#007bb5;"><span class="bi bi-linkedin bx bxl-linkedin" style="color:#007bb5;"></span>linkedin</a>
+     
+</div>
+/*--- Social media icon ends----*/
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+  
+      <div class="container" data-aos="fade-up">
+  
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>Fastra ERP is packed with features to enable your business grow</p>
+        </header>
+  
+        <div class="row feature-top">
+  
+          <div class="col-lg-7" data-aos="fade-up-right" data-aos-delay="100">
+            <img
+              src="../assets/img/landing/sales-inner.png
+              "
+              class="img-fluid" alt="">
+          </div>
+  
+          <div class="col-lg-5 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <h6 class="feature-head" data-aos="fade-up" data-aos-delay="100">Sales & Marketing</h6>
+              <h1 class="g-blue feature-main" data-aos="fade-up" data-aos-delay="200">Improve Sales and Marketing with
+                Fastra ERP</h1>
+              <p data-aos="fade-up" data-aos-delay="200">Meet and exceed the expectations of your customers by
+                predicting their needs ahead of time</p>
+              <div class="text-center text-lg-start">
+                <a href="#features"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span data-bs-toggle="modal" data-bs-target="#exampleModal">Request Demo</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+  
+            </div>
+          </div>
+  
+        </div> <!-- / row -->
+  
+        <div class="row feature-top reverse">
+  
+          <div class="col-lg-5 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <h6 class="feature-head" data-aos="fade-up" data-aos-delay="100">Human Resource management</h6>
+              <h1 class="g-blue feature-main" data-aos="fade-up" data-aos-delay="200">Maintain Efficient and Competenet
+                Workforce
+              </h1>
+              <p data-aos="fade-up" data-aos-delay="200">Ehance the effectiveness of your organisation by increasing the
+                overall productivity and profitability
+                of your business organisation
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#features"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span data-bs-toggle="modal" data-bs-target="#exampleModal">Request Demo</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="col-lg-7" data-aos="fade-up-left" data-aos-delay="100">
+            <img
+              src="../assets/img/landing/sales-inner.png"
+              class="img-fluid" alt="">
+          </div>
+  
+        </div> <!-- / row -->
+  
+        <div class="row feature-top">
+  
+          <div class="col-lg-7" data-aos="fade-up-right" data-aos-delay="100">
+            <img
+              src="../assets/img/landing/accounting3.png"
+              class="img-fluid" alt="">
+          </div>
+  
+          <div class="col-lg-5 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <h6 class="feature-head" data-aos="fade-up" data-aos-delay="100">Financial management</h6>
+              <h1 class="g-blue feature-main" data-aos="fade-up" data-aos-delay="200">Streamline your processes,
+                increase accuracy, and reduce costs.
+              </h1>
+              <p data-aos="fade-up" data-aos-delay="200">Automate your financial process, improve cash flow problems,
+                cash management, gain valuable insight and make efficient management decisions </p>
+              <div class="text-center text-lg-start">
+                <a href="#features"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span data-bs-toggle="modal" data-bs-target="#exampleModal">Request Demo</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+  
+            </div>
+          </div>
+  
+        </div> <!-- / row -->
+  
+        <div class="row feature-top reverse">
+  
+          <div class="col-lg-5 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+              <h6 class="feature-head" data-aos="fade-up" data-aos-delay="100">Supply chain management</h6>
+              <h1 class="g-blue feature-main" data-aos="fade-up" data-aos-delay="200">Cut excess cost and deliver
+                products to customer faster
+              </h1>
+              <p data-aos="fade-up" data-aos-delay="200">Improve your overall organisation performance by cutting cost,
+                managing transactions in complex supply chains with high degree of transparency and track your oders
+                throughout the system from sales through to procurement and delivery </p>
+              <div class="text-center text-lg-start">
+                <a href="#features"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span data-bs-toggle="modal" data-bs-target="#exampleModal">Request Demo</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="col-lg-7" data-aos="fade-up-left" data-aos-delay="100">
+            <img src="../assets/img/landing/inventory.PNG" class="img-fluid"
+              alt="">
+          </div>
+  
+        </div> <!-- / row -->
+    </section><!-- End Features Section -->
+  
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to our Newsletter</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>FastraSuite</span>
+            </a>
+            <p>Store all organisational data in one central location and gain easy access to real-time data, alongside a complete overview of activity, provides essential performance insights.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="../">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="../about/">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#features">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Products</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="../sales-and-marketing/">Sales &amp; Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="../human-resources/">Human Resource</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="../financial-management/">Financial Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="../supply-chain-management/">Supply Chain Mgt.</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="../customer-service-management/">Customer Service Mgt.</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="../warehouse-management/">Warehouse Mgt.</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+             8, Adelabu Street, Masha, Surulere, Lagos. <br>
+              <strong>Phone:</strong> +234 8056 235944<br>
+              <strong>Email:</strong> info@fastrasuite.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FastraSuite</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?68608';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#0d6efd",
+      "ctaText":"Message Us",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"FastraSuite",
+      "brandSubTitle":"Typically replies within a day",
+      "brandImg":"https://fastrasuite.com/assets/img/download.jpg",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about {{page_link}}",
+      "backgroundColor":"#0d6efd",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"2348056235944"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+</body>
+
+</html>

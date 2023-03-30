@@ -1,0 +1,98 @@
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar-{
+    display: none;
+  }
+  
+.h2-color{
+    color: black;
+}
+
+.flex-img-pic{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -5%;
+}
+
+img{
+    max-width: 100%;  
+}
+
+button{
+    background: #296db3;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    align-content: center;
+    border: none;
+}
+
+ .width-p{
+    width: 80%;
+} 
+
+.shift{
+    margin-left:5%;
+}
+
+
+.flex-img-pic-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+    margin-left: 5%;
+    }
+
+    .back-img ~ div{
+    background-image: url("../assets/img/jeffery-erhunse-vp9mRauo68c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+  }
+
+
+  .block-nav{
+    background: #296db3;
+    width: 100%;
+    padding: 22px;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+  }
+
+.span{
+    color: cyan
+}
+
+@media screen  and (max-width:1300px){
+    .flex-img-pic{
+      padding: 12px;
+        } 
+}
+
+@media screen  and (max-width:800px){
+    .flex-img-pic{
+       flex-wrap: wrap-reverse;
+        } 
+
+        .flex-img-pic-2{
+            flex-wrap: wrap;
+        }
+}
+
+@media screen  and (max-width:600px){
+    .width-p{
+        width: 100%;
+    } 
+
+    img{
+        max-width: 101%;  
+    }
+}
+
